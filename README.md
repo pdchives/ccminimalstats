@@ -2,18 +2,22 @@
  
 A minimal terminal statusline for [Claude Code](https://claude.ai/code) CLI showing token usage, session
  cost, and rate limits — color-coded and live.
-                                                                                                        
+
+  <img width="399" height="111" alt="Screenshot 2026-04-25 at 00 26 33" src="https://github.com/user-attachments/assets/1b6d007a-0759-4066-95ca-a3aefb39f8da" />
+
+<br>
+                                                                                                 
 ```                                 
-16.3k $0.59 · ctx 20% · 5h 4% · 7d 2%
+34.0k $1.35 · ctx 52% · 5h 8% · 7d 3%
 ```                                                                                                     
- 
+
 | Element | Description |                                                                               
 |---|---|                           
-| `16.3k` | Total session tokens (input + output) |
-| `$0.59` | Session cost in USD |                                                                       
-| `ctx 20%` | Context window usage |
-| `5h 4%` | 5-hour rate limit usage |                                                                   
-| `7d 2%` | 7-day rate limit usage |                                                                    
+| `34.0k` | Total session tokens (input + output) |
+| `$1.35` | Session cost in USD |                                                                       
+| `ctx 52%` | Context window usage |
+| `5h 8%` | 5-hour rate limit usage |                                                                   
+| `7d 3%` | 7-day rate limit usage |                                                                    
  
 Colors: token count and cost in orange · percentages go green → yellow → red at <50 / <75 / ≥75.        
                                     
