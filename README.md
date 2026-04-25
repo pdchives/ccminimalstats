@@ -18,6 +18,9 @@ A minimal terminal statusline for [Claude Code](https://claude.ai/code) CLI show
 | `ctx 52%` | Context window usage |
 | `5h 8%` | 5-hour rate limit usage |                                                                   
 | `7d 3%` | 7-day rate limit usage |                                                                    
+
+> The 5h and 7d limits reset on a rolling schedule. Run `/status` in Claude Code → Usage to see when    
+  yours resets.
  
 Colors: token count and cost in orange · percentages go green → yellow → red at <50 / <75 / ≥75.        
                                     
