@@ -1,6 +1,7 @@
 # ccminimalstats
                                                                               
-A minimal terminal statusline for [Claude Code](https://claude.ai/code) CLI showing token usage, session cost, and rate limits — color-coded and live.
+ A minimal terminal statusline for [Claude Code](https://claude.ai/code) CLI showing token usage,   
+  session cost, and rate limits — color-coded and live.
                                                                               
 ```                                 
 16.3k $0.59 · ctx 20% · 5h 4% · 7d 2%
